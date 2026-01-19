@@ -1,0 +1,28 @@
+project:
+  name: "adhd-learning-app"
+  language: "JavaScript"
+  framework: "Vanilla JavaScript"
+  description: "Interactive learning app for children with ADHD"
+
+commands:
+  test: "echo 'No tests configured yet'"
+  lint: "echo 'No linter configured yet'"
+  build: "echo 'No build step needed'"
+
+rules:
+  - "Use ES6+ modern JavaScript features"
+  - "Add clear, detailed code comments for complex logic"
+  - "Keep functions small and focused (single responsibility)"
+  - "Use semantic HTML5 elements"
+  - "Ensure mobile-responsive design (min-width: 320px)"
+  - "Add ARIA labels for accessibility"
+  - "Store all user data in LocalStorage with proper error handling"
+  - "Use clear variable names that describe their purpose"
+  - "Add visual feedback for all user interactions"
+  - "Design for focus and minimal distractions (ADHD-friendly)"
+
+boundaries:
+  never_touch:
+    - ".env*"
+    - "node_modules/**"
+    - ".git/**"
