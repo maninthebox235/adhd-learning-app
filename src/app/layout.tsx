@@ -3,8 +3,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "Isaac's Learning Hub",
-  description: "A fun, engaging learning app built just for Isaac",
+  title: "Isaac's Math Academy",
+  description: "A structured, mastery-based math learning app built for Isaac",
 };
 
 export default function RootLayout({
